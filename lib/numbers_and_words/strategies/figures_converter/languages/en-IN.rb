@@ -26,6 +26,7 @@ module NumbersAndWords
           private
 
           def capacity_count
+            # Hindustani numeral system breaks down capacities into 2 after the first 3 places
             count = (figures.capacity_length - 3) / HINDUSTANI_FIGURES_IN_CAPACITY
             count += 1 if figures.capacity_length >= 3
             

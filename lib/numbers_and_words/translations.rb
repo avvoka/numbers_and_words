@@ -28,6 +28,7 @@ require 'numbers_and_words/translations/vi'
 require 'numbers_and_words/translations/hy'
 require 'numbers_and_words/translations/kz'
 require 'numbers_and_words/translations/da'
+require 'numbers_and_words/translations/en-IN'
 
 module NumbersAndWords
   module Translations
