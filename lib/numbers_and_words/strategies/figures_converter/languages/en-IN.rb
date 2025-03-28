@@ -4,7 +4,7 @@ module NumbersAndWords
   module Strategies
     module FiguresConverter
       module Languages
-        class EnIn < Base
+        class EnIn < EnGb
           HINDUSTANI_FIGURES_IN_CAPACITY = 2
 
           def complex_number_to_words
