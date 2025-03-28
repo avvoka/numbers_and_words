@@ -33,10 +33,11 @@ module NumbersAndWords
           end
 
           def array_in_capacity(all_figures, capacity)
-            if capacity == 0
+            if capacity.zero?
               all_figures[0, FiguresArray::FIGURES_IN_CAPACITY]
             else
-              all_figures[FiguresArray::FIGURES_IN_CAPACITY + ((capacity - 1) * HINDUSTANI_FIGURES_IN_CAPACITY), HINDUSTANI_FIGURES_IN_CAPACITY]
+              offset = (capacity - 1) * HINDUSTANI_FIGURES_IN_CAPACITY
+              all_figures[FiguresArray::FIGURES_IN_CAPACITY + offset, HINDUSTANI_FIGURES_IN_CAPACITY]
             end
           end
         end
