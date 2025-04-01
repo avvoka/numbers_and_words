@@ -30,12 +30,12 @@ to_words:
     5000: five thousand
     11000: eleven thousand
     21000: twenty-one thousand
-    999000: nine lahk ninety-nine thousand
-    999999: nine lahk ninety-nine thousand nine hundred ninety-nine
+    999000: nine lakh ninety-nine thousand
+    999999: nine lakh ninety-nine thousand nine hundred ninety-nine
   millions:
-    1000000: ten lahk
-    2000000: twenty lahk
-    4000000: forty lahk
-    5000000: fifty lahk
-    999000000: ninety-nine crore ninety lahk
-    999000999: ninety-nine crore ninety lahk nine hundred ninety-nine
+    1000000: ten lakh
+    2000000: twenty lakh
+    4000000: forty lakh
+    5000000: fifty lakh
+    999000000: ninety-nine crore ninety lakh
+    999000999: ninety-nine crore ninety lakh nine hundred ninety-nine
